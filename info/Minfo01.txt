@@ -1,0 +1,1 @@
+﻿村民（Villager）（之前叫作測試版生物（Testificate））是一種的玩家能與其進行交易的智能被動型NPC

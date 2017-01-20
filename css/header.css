@@ -1,0 +1,12 @@
+header{
+	position: fixed;
+	top: 0;
+	height: 15vh;
+	width: 100%;
+}
+header img{
+	position: relative;
+	display: inline-block;
+	height: 13vh;
+	margin-top: 2vh;
+}

@@ -1,0 +1,50 @@
+nav ul{
+	position: fixed;
+	bottom: 2px;
+	width: 100%;
+	background-color: #000;
+	z-index: 10;
+}
+nav>ul>li{
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	width: calc(100vw/6 - 12px);
+	height: 5vh;
+	margin-left: 2px;
+	line-height: 5vh;
+	z-index: 10;
+}
+nav>ul>li:hover{
+	background-color: #808080;
+	z-index: 10;
+}
+ul.subnav{
+	background-color: initial;
+	z-index: 10;
+}
+nav>ul>li:hover>ul.subnav>li{
+	display: block;
+	z-index: 10;
+}
+ul.subnav>li{
+	display: none;
+	list-style: none;
+	position: relative;
+	bottom: 5vh;
+	width: calc(100vw/6 - 12px);
+	height: 5vh;
+	margin-bottom: 2px;
+	line-height: 5vh;
+	background-color: rgba(128, 128, 128,0.5);
+	z-index: 10;
+}
+ul.subnav>li:hover{
+	background-color: #DDD;
+	display: block;
+	z-index: 10;
+}
+ul.subnav>li:hover>a{
+	color: #000;
+	z-index: 10;
+}
